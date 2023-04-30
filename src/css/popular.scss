@@ -1,0 +1,29 @@
+.popular{
+  padding: 20px 0 90px;
+  &__content{
+    text-align: center;
+  }
+  &__title{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #618C03;
+  }
+  &__span{
+    margin-top: 50px;
+  }
+  &__card{
+    &-button{
+      display: flex;
+      align-items: flex-start;
+
+    }
+  }
+  &__row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,38 @@
+.main{
+  background: url("../images/mainbg.png") 100% 100%/ cover no-repeat;
+  padding: 30px 0 0;
+  &__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__left{
+    &-app{
+      display: flex;
+      align-items: center;
+      column-gap: 26px;
+    }
+    &-title{
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 76px;
+      color: #F28705;
+    }
+    &-text{
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 62px;
+      margin: 34px 0 34px;
+      letter-spacing: -0.035em;
+      color: #618C03;
+    }
+  }
+  &__center{
+    &-image{
+      width: 90%;
+    }
+  }
+  &__images{
+    margin-bottom: -207px;
+  }
+}
