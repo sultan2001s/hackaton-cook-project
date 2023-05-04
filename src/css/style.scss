@@ -11,10 +11,27 @@
 .container{
   width: 100%;
   max-width: 1250px;
-  padding: 0 10px;
+  padding: 0 5px;
   margin: 0 auto;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: gray;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#ffffff, #C1D4D9);
+  border-radius: 10px;
 }
 
 @import "header";
 @import "main";
 @import "popular";
+@import "food";
+@import "footer";
+@import "favorite";
+@import "basket";

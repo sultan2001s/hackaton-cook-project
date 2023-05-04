@@ -1,0 +1,81 @@
+.favorite{
+  padding: 65px 0 10px;
+  &__title{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 76px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #F28705;
+  }
+  &__input{
+    width: 620px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #618C03;
+    border-radius: 15px 0;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: rgba(97, 140, 3, 0.45);
+    padding-left: 30px;
+    outline: none;
+    margin: 65px 0 60px;
+  }
+  &__row{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  &__card{
+    display: flex;
+    column-gap: 10px;
+    border: 1px solid #C1D4D9;
+    filter: drop-shadow(-1px 4px 7px #C1D4D9);
+    border-radius: 15px;
+    padding: 41px 36px 29px 8px;
+    width: 605px;
+    &-food{
+      display: flex;
+      column-gap: 40px;
+      align-items: flex-start;
+    }
+    &-title{
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 30px;
+      letter-spacing: -0.035em;
+      color: #618C03;
+    }
+    &-text{
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 30px;
+      margin-top: 120px;
+      margin-left: 43px;
+      letter-spacing: -0.035em;
+      color: #F2B705;
+    }
+  }
+  &__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__btn{
+    width: 544px;
+    height: 55.79px;
+    margin-top: 60px;
+    cursor: pointer;
+    background: #F28705;
+    border: 1px solid #F28705;
+    border-radius: 15px 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    font-variant: small-caps;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+  }
+}

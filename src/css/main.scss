@@ -27,12 +27,13 @@
       color: #618C03;
     }
   }
-  &__center{
-    &-image{
-      width: 90%;
-    }
-  }
   &__images{
     margin-bottom: -207px;
+  }
+  &__right{
+    margin-right: 160px;
+    &-img{
+      width: 130%;
+    }
   }
 }

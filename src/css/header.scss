@@ -1,13 +1,7 @@
 .header{
-  padding: 29px 0 0;
+  padding: 10px 0 0;
   background: #C1D4D9;
-  &__logos{
-    display: flex;
-    flex-direction: column;
-  }
-  &__logo{
-    width: 80px;
-  }
+
   &__nav{
     display: flex;
     align-items: center;
@@ -22,6 +16,14 @@
       font-size: 20px;
       line-height: 20px;
       color: #618C03;
+      cursor: pointer;
+      &:hover{
+        color: #F28705;
+        border: 1px solid #1A911E;
+        border-radius: 15px 0;
+        padding: 10px 7px 10px;
+        transition: .3s;
+      }
     }
   }
   &__buttons{
@@ -54,6 +56,13 @@
       font-size: 20px;
       line-height: 20px;
       color: #FFFFFF;
+      &:hover{
+        background: #F2DC9B;
+        border: 1px solid #618C03;
+        border-radius: 15px 0;
+        color: #618C03;
+        transition: .3s;
+      }
     }
   }
 }
